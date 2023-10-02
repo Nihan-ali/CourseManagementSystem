@@ -1,0 +1,84 @@
+#header {
+            background-color: #cbd6d2ec;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #ffffff;
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 5px 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+#header img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+        }
+
+#header h1 {
+            color: black;
+            margin: 0;
+            font-size: 26px;
+            margin-right: 100px;
+        }
+
+#my-dashboard {
+        
+            color: black;
+            font-size: 20px;
+            margin-left: 120px;
+        }
+
+#logout-box {
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-left: auto;
+            font-weight:bold;
+        }
+
+#name {
+            margin-right: 10px;
+        }
+
+        #logout-button {
+            background-color: #3498DB;
+            color: #FFF;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+#logout-button i {
+            margin-right: 5px;
+        }
+.menu-bar {
+    width: 60%;
+    margin: 0 auto; /* Center-align the menu bar */
+    display: table;
+    table-layout: fixed;
+    border-collapse: separate;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  .menu-bar button {
+    display: table-cell;
+    width: 33.33%;
+    text-align: center;
+    padding: 10px;
+    background-color: #87ceeb;
+    color: #fff;
+    border: none;
+  }
+
+  .menu-bar button.active {
+    background-color: #1e90ff;
+  }

@@ -1,0 +1,315 @@
+    
+    /* General Styles */
+
+ body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 100vh;
+        padding: 5px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+    
+    /* Header Styles */
+    .img {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #ffffff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    header h1 {
+        color: black;
+        margin: 0;
+        font-size: 24px;
+    }
+    
+    h2 {
+        color: black;
+        margin: 0;
+        font-size: 24px;
+    }
+
+.register-button {
+  display: inline-block;
+  background-color: #030303;
+  color: #FFF;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 80px;
+}
+
+.register-button:hover {
+  background-color: #3d4246;
+}
+.avail-button {
+  display: inline-block;
+  background-color: #030303;
+  color: #FFF;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.avail-button:hover {
+  background-color: #3d4246;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 100vh;
+        padding: 5px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+    
+    /* Header Styles */
+
+
+    
+    .logout {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logout span {
+        margin-right: 10px;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    .logout button {
+        background-color: #3498DB;
+        color: #FFF;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .logout button:hover {
+        background-color: #2980B9;
+    }
+    
+    .logout i {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+.container {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom :20px;
+}
+
+/* Box Styles */
+
+.box {
+  flex-basis: calc(25% - 20px);
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background: linear-gradient(to bottom right, #e9e0e0, #b7c9c4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.course {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.teacher-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.teacher-box {
+    width: 23%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.teacher-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.teacher-details {
+    text-align: center;
+}
+
+.teacher-details h3 {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.teacher-details p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.credit {
+  color: #3465a4;
+  font-size: 14px;
+}
+
+.teacher {
+  color: #888;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#registered-courses,
+#available-courses {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Take Course Button and Form Styles */
+
+.take-course-btn {
+  display: inline-block;
+  background-color: #3498DB;
+  color: #FFF;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.take-course-btn:hover {
+  background-color: #2980B9;
+}
+
+#take-course-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: #3498DB;
+  color: #FFF;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#take-course-btn:hover {
+  background-color: #2980B9;
+}
+
+#take-course-form {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  padding: 30px;
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#take-course-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#take-course-form button {
+  display: inline-block;
+  background-color: #3498DB;
+  color: #FFF;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#take-course-form button:hover {
+  background-color: #2980B9;
+}
+
+#take-course-form .cancel-btn {
+  background-color: #E74C3C;
+}
+
+#take-course-form .cancel-btn:hover {
+  background-color: #C0392B;
+}
+
+
+
+  

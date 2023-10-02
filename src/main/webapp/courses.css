@@ -1,0 +1,226 @@
+body {
+			margin: 0;
+			padding: 0;
+			background-color: #f0f0f0;
+			font-family: Arial, sans-serif;
+		}
+		#header {
+            background-color: #cbd6d2ec;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #ffffff;
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 5px 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+#header img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+        }
+
+#header h1 {
+            color: black;
+            margin: 0;
+            font-size: 26px;
+            margin-right: 100px;
+        }
+
+#my-dashboard {
+        
+            color: black;
+            font-size: 20px;
+            margin-left: 120px;
+        }
+
+#logout-box {
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-left: auto;
+            font-weight:bold;
+        }
+
+#name {
+            margin-right: 10px;
+        }
+
+        #logout-button {
+            background-color: #3498DB;
+            color: #FFF;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+#logout-button i {
+            margin-right: 5px;
+        }
+menu-bar {
+    width: 60%;
+    margin: 0 auto; /* Center-align the menu bar */
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  .menu-bar button {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #87ceeb;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #f1f1f1;
+  }
+
+  .menu-bar button:first-child {
+    border-left: 2px solid #f1f1f1;
+  }
+
+  .menu-bar button:last-child {
+    border-right: 2px solid #f1f1f1;
+  }
+
+  .menu-bar button.active {
+    background-color: #1e90ff;
+  }
+		
+.container {
+			width: 80%;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
+		
+		.header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 10px;
+		}
+		
+		.header h2 {
+			font-size: 24px;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.btn {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+			display: inline-block;
+			margin-right: 10px;
+		}
+		
+		.btn:hover {
+			background-color: #3e8e41;
+		}
+		
+		.popup-background {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 1;
+			display: none;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+		}
+
+		.popup-form {
+			background-color: white;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			text-align: center;
+			width: 80%;
+			max-width: 500px;
+			position: relative;
+			z-index: 2;
+			border-radius: 10px;
+		}
+		
+		.form-label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+			text-align: left;
+		}
+		
+		.form-input {
+			display: block;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			width: 100%;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+	.course-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.course-table th, 
+.course-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 45%;
+  font-size:25px;
+}
+
+.course-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #555;
+}
+
+.course-table td {
+  color: #333;
+  width: 45%;
+  font-size:25px;
+}
+
+.course-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Add striped rows to the table */
+.course-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add hover styles to table cells */
+.course-table td:hover {
+  background-color: #e8f1f8;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Add styles for selected table cells */
+.course-table .selected {
+  background-color: #4CAF50;
+  color: #fff;
+}
